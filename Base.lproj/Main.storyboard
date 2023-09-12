@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="wFE-vV-F0s">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--About-->
+        <scene sceneID="ZUa-Uy-dDc">
+            <objects>
+                <viewController id="U2p-8X-CDW" customClass="AboutViewController" customModule="NorcalSmoke" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FE4-ox-S6z">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hx4-Lw-OjN">
+                                <rect key="frame" x="0.0" y="33" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="barTintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="About NorcalSmoke" id="65T-vP-OJd">
+                                        <barButtonItem key="rightBarButtonItem" title="Share" id="Jyg-uB-O1V">
+                                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <connections>
+                                                <action selector="sharePressed:" destination="U2p-8X-CDW" id="NWh-7t-XKi"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" id="aPG-rA-W9W">
+                                <rect key="frame" x="12" y="326" width="388" height="244"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="450" id="e3V-uJ-9zU"/>
+                                </constraints>
+                                <string key="text">End User License Agreement
+
+Thank you for your interest in this application (the “App”). The App, provided to you by Spirit of Paris, LLC (“Company”) may also enable you to use certain features of the Company's online service (the “Service”). This End User License Agreement, together with the Spirit of Paris Privacy Policy and any additional policies (the “Policies”) (collectively, the “EULA”), as may be updated from time to time, governs your use of the App and the Service. 
+
+BY DOWNLOADING, INSTALLING, OR OTHERWISE ACCESSING OR USING THE APP OR THE SERVICE, YOU AGREE THAT YOU HAVE READ, UNDERSTOOD, AND AGREE TO BE BOUND BY THE EULA. IF YOU DO NOT AGREE, YOU MAY NOT USE THE APP.
+
+The EULA provides greater detail, but it is important to note that:
+
+- the App is licensed, not sold to you, and you may use the App as set forth in this EULA, and if you distribute modified copies you must do so under your own form of license agreement;
+- the App is provided “as is” without warranties of any kind, and the App is not a substitute for a complete, accurate, and up to date authorized copy of the manufacturer's  Pilot's Operating Handbook (“POH”) and supplemented as necessary for any applicable installed equipment and after-market modifications to the aircraft;
+- the App may not be used for flight or flight planning;
+- Company's liability to you is limited to the maximum extent permitted by applicable law;
+- disputes between us regarding the App will be resolved by binding arbitration, and, you waive the right to a jury trial or to participate in a class action for such disputes;
+- if you are using the App on an iOS-based device, you agree to and acknowledge the “Notice Regarding Apple”, below;
+
+1. License Grants
+a. Limited License
+Subject to your complete and ongoing compliance with all the terms and conditions set forth in this EULA, Company grants you a nonexclusive, nontransferable, non-sublicensable, revocable license to install and use the App for your personal use on a supported device, in support of your use of an authorized copy of the applicable aircraft's POH. You may not distribute or modify the App except as expressly provided herein. As used herein, the term “App” includes any update or modification to the App made available to you by Company (unless provided with separate terms). If you are prohibited under applicable law from using the App, you may not use it.
+
+b. Service
+To the extent Company makes any Service available, such as enabling you to store App settings or configurations, your access and use of such Service is subject to your compliance with these terms, applicable law, and any usage guidelines Company may provide. Company may modify, discontinue, or suspend access to any such Service at any time for any reason, and does not guarantee or warrant that the Service or any data you store on the Service will remain accessible, or that your data will not be lost, corrupted, or accessed by Company and/or third parties. While Company does not sell or otherwise intentionally publish your personal information, information you store on the Service may not be confidential, and may be accessed by third parties. You grant Company an unrestricted right to use any such data for any purpose.
+
+2. Intellectual Property
+a. Reservation of Rights
+The App, and all rights thereto, are owned by Company and its licensor, and are protected by copyright, trade dress, patent, and trademark laws of the United States and other jurisdictions, international conventions, and all other relevant intellectual property rights, and applicable laws. As between you and Company, the App and all intellectual property rights therein and thereto, are the sole and exclusive property of Company or its subsidiaries or affiliated companies and/or its third-party licensors. Information and materials available through the App may be owned by third party aircraft manufacturers. You may not to sell, license, distribute, copy, modify, publicly perform or display, transmit, publish, edit, adapt, create derivative works from, or make any use of the App or any materials available through the App, except as expressly provided herein. Company reserves all rights not expressly granted in this EULA. Except as expressly provided herein, you do not acquire any right, title or interest to the App or any derivatives thereof, whether by implication, estoppel, or otherwise.
+
+b. Modifications and Contributions
+With respect to any modification, enhancement, or update to, or derivative work of, the App that you provide to Company, or any feedback or suggestions you may provide with respect to any such modification, enhancement, update, or derivative (collectively “Modifications”), then to the maximum extent permissible pursuant to applicable law, you hereby grant to Company a nonexclusive, worldwide, unlimited, transferable, sublicensable, royalty free, fully paid up right and license to reproduce, distribute, publicly perform, publicly display, prepare derivative works of, make, use, sell, offer for sale, import, and otherwise exploit your Modifications, alone or as a part of a larger work, without limitation. For the avoidance of doubt, any monetary contributions you or any other person may make to the App project are independent of this EULA, and are not and shall not be deemed to constitute license fees or payment for any of the rights or licenses granted hereunder.
+
+3. Indemnity
+You agree on behalf of yourself, your successors and assigns, to indemnify and hold harmless the Company and its licensors, suppliers, and customers, together with all authors of, contributors to, and all distributors of the App, including without limitation their respective affiliates and agents (collectively, the “Indemnified Parties”), from any and all liability, damages, harms, losses, expenses, or other amounts incurred by any of the Indemnified Parties arising out of or in connection with your use of the App or any Modification thereto, or the distribution, use, or exploitation of the App or any such Modification, including any such amounts incurred by Company, you, or any third party for any personal injury, death, or property harm (collectively “Harms”).
+
+4. No Warranties; Disclaimer
+a. Limitations
+You acknowledge and agree that the aircraft's POH is the authoritative source of the aircraft's information, and must be kept up to date with manufacturers' updates and to reflect any after-market modifications to the aircraft. The Apps and any information provided by or available through the App is for additional reference only and you acknowledge and agree that you will confirm and verify all results obtained by using either of them against the aircraft's POH before operating the aircraft in reliance on or in accordance with any such results, including any “emergency” or similar exigency information or features. The algorithms and parameters in the App are approximations of POH values, and are not warranted to be error free. Parameters and algorithms in the App were derived from a POH that may be different than the POH for the aircraft, and may not reflect the equipment installed on the aircraft. In addition, you understand and agree that you are solely responsible to configure the App to correspond to the aircraft, to the extent such configuration is available. You acknowledge and agree that you alone are responsible for verifying that all parameters and algorithms used are appropriate for the aircraft. The App is not a commercial software product, and has not been thoroughly tested.
+
+b. Inherent Risks
+You acknowledge and agree that the operation of an aircraft involves inherent and unpredictable risks of accident, loss, serious bodily injury and/or death, and pain and suffering to you and others, as well as harm or loss to property including the aircraft itself and third party property. You do hereby expressly release all Indemnified Parties from and assume all risk of Harm to yourself and to others that may result from your use of the Ape in connection with the operation of the aircraft.
+
+c. DISLCAIMER
+THE APP AND ALL APPLICABLE SOURCE CODE OR OTHER INFORMATION OR MATERIALS PROVIDED BY COMPANY ARE PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, COMPANY, ON BEHALF OF ITSELF AND ITS AFFILIATES, SUPPLIERS, AND LICENSORS, INCLUDING WITHOUT LIMITATION ALL AUTHORS AND CREATORS OF THE APP AND ASSOCIATED INFORMATION AND MATERIALS, HEREBY DISCLAIMS ALL WARRANTIES, WHETHER EXPRESS, IMPLIED, STATUTORY OR OTHERWISE, INCLUDING, WITHOUT LIMITATION, ANY WARRANTIES OF MERCHANTABILITY, NONINFRINGEMENT AND FITNESS FOR A PARTICULAR PURPOSE, OR THAT THE APP OR ANY POH OR OTHER DATA OR INFORMATION OR OTHER MATERIALS AVAILABLE IN CONNECTION WITH THE APP OR THE WEB PROPERTIES OWNED OR OPERATED BY COMPANY SHALL BE THOROUGHLY TESTED, ACCURATE, UP TO DATE, ERROR-FREE OR UNINTERRUPTED, OR SUITABLE TO ACHIEVE ANY PARTICULAR RESULT.
+
+5. Limitation on Liability
+UNDER NO CIRCUMSTANCES, INCLUDING NEGLIGENCE, WILL COMPANY OR ANY OF ITS AFFILIATES, SUPPLIERS, AND LICENSORS, INCLUDING WITHOUT LIMITATION ALL AUTHORS AND CREATORS OF THE APP AND ASSOCIATED INFORMATION AND MATERIALS, BE LIABLE TO YOU HEREUNDER, OR OTHERWISE IN CONNECTION WITH SUCH MATERIALS OR THE USE OR DISTRIBUTION THEREOF BY YOU OR ANY OTHER PARTY, OR ARISING FROM OTHER DEALINGS WITH RESPECT TO THE APP FOR ANY DIRECT, INDIRECT, INCIDENTAL, EXEMPLARY, PUNITIVE, RELIANCE, SPECIAL OR CONSEQUENTIAL DAMAGES, INCLUDING WITHOUT LIMITATION ANY LOSS OF BUSINESS, LOSS OF USE, LOST PROFIT, LOSS OF DATA, OR DAMAGE TO MOBILE DEVICES, AIRCRAFT OR ANY OTHER PROPERTY, OR ANY DAMAGES WITH RESPECT TO ANY PROPERTY DAMAGE, PERSONAL INJURY OR DEATH. THE FOREGOING LIMITATION APPLIES WHETHER OR NOT COMPANY HAS BEEN INFORMED OF THE POSSIBILITY OF SUCH DAMAGES AND IRRESPECTIVE OF THE FAILURE OF ESSENTIAL PURPOSE OF ANY LIMITED REMEDY HEREIN. TO THE EXTENT THAT THE WAIVER OF DIRECT DAMGES IS NO ENFORCEABLE PURSUANT TO APPLICABLE LAW, IN NO EVENT WILL COMPANY'S LIABILITY TO YOU EXCEED AN AGGREGATE TOTAL EXCEEDING THE LESSER OF THE VALUE LICENSING REVENUE GENERATED BY COMPANY IN RESPECT OF LICENSES GRANTED BY COMPANY TO THE MODIFICATIONS YOU PROVIDE TO COMPANY HEREUNDER, IF ANY, OR TEN DOLLARS ($10USD). You acknowledge that Company's ability to offer the App to you hereunder is based on the above limitations, and that the limitations in this Section represent a reasonable allocation of risk for the parties, and that Company would be unable to offer the App to you without allocating such risk as provided herein.
+
+6. Dispute Resolution
+a. Arbitration
+Except for the right of either party to apply to a court of competent jurisdiction for a temporary restraining order, a preliminary injunction, or other equitable relief to prevent irreparable harm, any dispute as to the interpretation, enforcement, breach, or termination of this EULA will be settled in our individual capacities by binding arbitration in Santa Clara County, California, U.S.A. under the rules of the American Arbitration Association (the “Rules”) by a single arbitrator appointed in accordance with the Rules. If there is a conflict between the Rules and the terms of this EULA, the terms of this EULA will prevail. Judgment upon the decision or award rendered by the arbitrators may be entered in any court of competent jurisdiction. You understand and agree that, by entering into this EULA, you and Company are each waiving the right to a trial by jury or to participate in a class action.
+
+b. No Class Actions
+YOU AND COMPANY AGREE THAT EACH MAY BRING CLAIMS AGAINST THE OTHER WITH REGARD TO DISPUTES ARISING HEREUNDER ONLY IN THEIR INDIVIDUAL CAPACITY AND NOT AS A PLAINTIFF OR CLASS MEMBER IN ANY PURPORTED CLASS OR REPRESENTATIVE PROCEEDING. Further, unless both you and Company agree otherwise, the arbitrator may not consolidate more than one person's claims, and may not otherwise preside over any form of a representative or class proceeding.
+
+c. Small Claims
+Any claims or disputes where the total amount of the award sought is less than ten thousand U.S. dollars (US $10,000.00) may be resolved through binding non-appearance-based arbitration, at the option of the party seeking relief. If non-appearance arbitration is elected as provided above, the arbitration shall be conducted by telephone, online, and/or based solely on written submissions; the specific manner shall be chosen by the party initiating the arbitration. The arbitration shall not involve any personal appearance by the parties or witnesses unless otherwise mutually agreed by the parties.
+
+d. Modifications
+In the event that Company makes any future change to this arbitration provision (other than a change to the Company's address for notice), you may reject any such change by sending us written notice within 30 days of the change to Company's address for notice, in which case this Agreement and your right to use the App and the Service shall be immediately terminated and this arbitration provision, as in effect immediately prior to the amendments you reject shall survive.
+
+e. Enforceability
+If this Section 6, or any portion thereof, is found to be unenforceable, then the entirety of this Section 6 shall be null and void and, in such case, the parties agree that the exclusive jurisdiction and venue described elsewhere in Section 6 shall govern any action arising out of or related to this EULA.
+
+7. Privacy
+You acknowledge and agree that the information you enter into the App and Service and the information the Company collects will be used as described in the POH Perfomance Privacy Policy.
+
+8. Miscellaneous
+This EULA is the entire agreement between you and Company, and supersedes any and all prior agreements, negotiations, or other communications between you and Company, whether oral or written, with respect to the subject matter hereof, and, except as expressly provided herein, cannot be modified except in writing signed by both parties. In the event that any provision of this EULA is held to be invalid or unenforceable, then: (a) such provision shall be deemed reformed to the extent strictly necessary to render such provision valid and enforceable, or if not capable of such reformation shall be deemed severed from this EULA; and (b) the validity and enforceability of all of the other provisions hereof, shall in no way be affected or impaired thereby. You may not assign this EULA without the prior written consent of Company, whether expressly or by operation of law, including in connection with a merger or change of control, and any such attempted assignment shall be void and of no effect. Company may assign this EULA without restriction and without any notice to you. Subject to the foregoing, this EULA shall be binding on the parties and their respective successors and permitted assigns. You acknowledge and understand that if Company is unable to provide the Service as a result of a force majeure event Company will not be in breach of this EULA. A force majeure event means any event beyond the control of Company. The failure to exercise, or delay in exercising, a right, power or remedy provided in this EULA or by law shall not constitute a waiver of that right, power or remedy. Company's waiver of any obligation or breach of this EULA shall not operate as a waiver of any other obligation or subsequent breach of the EULA. The English language version of this EULA shall be the official and controlling version, and any translation provided is solely for convenience.
+
+NOTICE REGARDING APPLE
+You acknowledge that this EULA is between you and Company only, not with Apple, and Apple is not responsible for the Service and the content thereof. Apple has no obligation whatsoever to furnish any maintenance and support services with respect to the Service. In the event of any failure of the Service to conform to any applicable warranty, then you may notify Apple and Apple will refund any applicable purchase price for the App to you; and, to the maximum extent permitted by applicable law, Apple has no other warranty obligation whatsoever with respect to the Service. Apple is not responsible for addressing any claims by you or any third party relating to the Service or your possession and/or use of the Service, including, but not limited to: (i) product liability claims; (ii) any claim that the Service fails to conform to any applicable legal or regulatory requirement; and (iii) claims arising under consumer protection or similar legislation. Apple is not responsible for the investigation, defense, settlement and discharge of any third party claim that the Service and/or your possession and use of the App infringe that third party's intellectual property rights. You agree to comply with any applicable third party terms, when using the Service. Apple, and Apple's subsidiaries, are third party beneficiaries of this EULA, and upon your acceptance of this EULA, Apple will have the right (and will be deemed to have accepted the right) to enforce this EULA against you as a third party beneficiary of this EULA. You hereby represent and warrant that (i) you are not located in a country that is subject to a U.S. Government embargo, or that has been designated by the U.S. Government as a “terrorist supporting” country; and (ii) you are not listed on any U.S. Government list of prohibited or restricted parties.</string>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" editable="NO" textAlignment="natural" id="g7C-Kv-MOf">
+                                <rect key="frame" x="12" y="84" width="388" height="218"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="350" id="CJ3-gi-MOZ"/>
+                                </constraints>
+                                <string key="text">Tips:   - Swipe up and down for Washington, Oregon, Norcal and Socal forecasts.  - Use the slider to change the forecast time.  - Always check other sources of weather.   Forecast data from NOAA https://airquality.weather.gov/.  1Hr Average Vertical Smoke Integration and surface forecasts. By using this application, you agree to the terms and conditions listed below: </string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="tWR-x6-71L"/>
+                        <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="aPG-rA-W9W" firstAttribute="leading" secondItem="g7C-Kv-MOf" secondAttribute="leading" id="2tc-qq-5Yw"/>
+                            <constraint firstItem="aPG-rA-W9W" firstAttribute="trailing" secondItem="g7C-Kv-MOf" secondAttribute="trailing" id="JLu-zE-bey"/>
+                            <constraint firstItem="aPG-rA-W9W" firstAttribute="top" secondItem="g7C-Kv-MOf" secondAttribute="bottom" constant="38" id="c7e-X8-zND"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="About" image="info" catalog="system" id="h7X-xi-rcM"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="70T-A3-INx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1863.7681159420292" y="1419.6428571428571"/>
+        </scene>
+        <!--Forecast-->
+        <scene sceneID="W8u-Ba-e1h">
+            <objects>
+                <viewController id="Ajb-Q8-tLg" customClass="ViewController" customModule="NorcalSmoke" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hsH-WA-Hx3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vY0-aN-lw7">
+                                <rect key="frame" x="0.0" y="33" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="barTintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="About NorcalSmoke" id="jIO-mG-LDX"/>
+                                </items>
+                            </navigationBar>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DoD-fU-cfv" userLabel="Mask fix View">
+                                <rect key="frame" x="0.0" y="77" width="414" height="819"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="1aM-Bj-nxL" userLabel="Big Container View">
+                                <rect key="frame" x="0.0" y="77" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="7GA-rd-fJK">
+                                        <rect key="frame" x="8" y="651" width="398" height="32"/>
+                                        <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                        <segments>
+                                            <segment title="Surface smoke"/>
+                                            <segment title="Vertical smoke"/>
+                                        </segments>
+                                        <color key="tintColor" systemColor="systemTealColor"/>
+                                        <color key="selectedSegmentTintColor" red="0.5824470517" green="0.5824470517" blue="0.5824470517" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="reportType:" destination="Ajb-Q8-tLg" eventType="valueChanged" id="R90-A8-5c2"/>
+                                        </connections>
+                                    </segmentedControl>
+                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="42" translatesAutoresizingMaskIntoConstraints="NO" id="lWu-8a-iOv">
+                                        <rect key="frame" x="6" y="690" width="402" height="31"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="minimumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="maximumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="thumbTintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <action selector="selection:" destination="Ajb-Q8-tLg" eventType="valueChanged" id="K0j-xt-qUe"/>
+                                        </connections>
+                                    </slider>
+                                    <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="VMT-Lb-fID">
+                                        <rect key="frame" x="90" y="497" width="234" height="20"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" id="D80-w0-xCS">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="596"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="lWu-8a-iOv" firstAttribute="top" secondItem="7GA-rd-fJK" secondAttribute="bottom" constant="8" id="16i-Tm-oBn"/>
+                                    <constraint firstItem="7GA-rd-fJK" firstAttribute="leading" secondItem="1aM-Bj-nxL" secondAttribute="leading" constant="8" id="1Bv-t0-HaP"/>
+                                    <constraint firstItem="7GA-rd-fJK" firstAttribute="leading" secondItem="lWu-8a-iOv" secondAttribute="leading" id="AiW-Ii-PxT"/>
+                                    <constraint firstAttribute="trailing" secondItem="7GA-rd-fJK" secondAttribute="trailing" constant="8" id="CBj-Q9-x1w"/>
+                                    <constraint firstAttribute="trailing" secondItem="7GA-rd-fJK" secondAttribute="trailing" constant="8" id="CeW-CA-gcU"/>
+                                    <constraint firstAttribute="trailing" secondItem="D80-w0-xCS" secondAttribute="trailing" id="Cyx-Mo-SOc"/>
+                                    <constraint firstAttribute="bottom" secondItem="lWu-8a-iOv" secondAttribute="bottom" constant="16" id="Ed0-Nm-JxO"/>
+                                    <constraint firstItem="lWu-8a-iOv" firstAttribute="leading" secondItem="1aM-Bj-nxL" secondAttribute="leading" constant="8" id="Nx1-Ul-hzC"/>
+                                    <constraint firstAttribute="centerX" secondItem="VMT-Lb-fID" secondAttribute="centerX" id="SSS-TI-Blv"/>
+                                    <constraint firstItem="D80-w0-xCS" firstAttribute="top" secondItem="1aM-Bj-nxL" secondAttribute="top" constant="20" id="TOH-a7-CXk"/>
+                                    <constraint firstAttribute="leading" secondItem="D80-w0-xCS" secondAttribute="leading" id="dYb-U2-Ysz"/>
+                                    <constraint firstAttribute="trailing" secondItem="lWu-8a-iOv" secondAttribute="trailing" constant="8" id="he3-mU-vNh"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="9Z8-SS-4bK"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="1aM-Bj-nxL" firstAttribute="bottom" secondItem="9Z8-SS-4bK" secondAttribute="bottom" id="V7r-GM-ul7"/>
+                            <constraint firstItem="1aM-Bj-nxL" firstAttribute="leading" secondItem="9Z8-SS-4bK" secondAttribute="leading" id="bgY-Js-13q"/>
+                            <constraint firstItem="9Z8-SS-4bK" firstAttribute="trailing" secondItem="1aM-Bj-nxL" secondAttribute="trailing" id="fZA-c3-07o"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Forecast" image="cloud.fill" catalog="system" id="0DX-24-mY5"/>
+                    <connections>
+                        <outlet property="appTitle" destination="vY0-aN-lw7" id="d6u-gg-VZm"/>
+                        <outlet property="aqiImage" destination="D80-w0-xCS" id="rux-nU-y4B"/>
+                        <outlet property="miniImage" destination="VMT-Lb-fID" id="t9r-3L-0ys"/>
+                        <outlet property="sliderOutlet" destination="lWu-8a-iOv" id="q5f-Sp-YwH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="atx-IJ-4gQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1863.7681159420292" y="814.95535714285711"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="qNv-7F-pWT">
+            <objects>
+                <tabBarController id="wFE-vV-F0s" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="sHU-XD-upM">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Ajb-Q8-tLg" kind="relationship" relationship="viewControllers" id="u6d-Zg-zfB"/>
+                        <segue destination="U2p-8X-CDW" kind="relationship" relationship="viewControllers" id="aE3-DS-g8c"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h8F-Wx-qgp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="972" y="1118"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cloud.fill" catalog="system" width="128" height="88"/>
+        <image name="info" catalog="system" width="93" height="128"/>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
